@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Titan+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+img {
+    object-fit: cover;
+}
+
+body {
+    background-color: #F5E6C5;
+}
+
+ul, a, h1{
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.logo {
+    cursor: pointer;
+    width: 100px;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+.logo img {
+    width: 100%;
+}
+.nav_links {
+    list-style: none;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0,3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #D78B30;
+}
+
+footer {
+    background-color:#F5E6C5;
+    padding: 20px;
+    font-family: "montserrat", sans-serif;
+}
+
+/* section1*/
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/rm.png.JPG);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;               
+    justify-content: center;
+    color:white;
+    font-family: 'Titan One', sans-serif;
+}
+
+.hero h2 {
+    flex-direction: column;
+    padding: 0;
+ 
+}
+
+.hero h2 span:nth-of-type(1) {
+    font-size: .5em;
+    align-self: flex-start;
+}
+
+.hero h2 span:nth-of-type(2) {
+    font-size: 2.2em;
+    align-self: center;
+    line-height: 0.7em;
+}
+
+.hero h2 span:nth-of-type(3) {
+    font-size: .5em;
+    align-self: flex-end;
+}
+
+.hero h2:nth-of-type(1) {
+    color: white;
+    display: flex;
+    align-items: center;               
+    justify-content: center;
+    font-size: 75px;
+    margin: 0%;
+}
+
+/* section2*/
+.section2 {
+    font-family: "montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #3E402D;
+    font-size: 25px;
+
+}
+
+.info {
+    background-color:#F5E6C5;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.info a {
+    border: solid #3E402D ;
+}
+
+.info li a:hover{
+    color: #F5E6C5;
+    background-color: #D78B30;
+    border: solid #9F886F ;
+}
+
+.info h2 {
+    background-color: #9F886F;
+    padding: 2px;
+}
+
+/* section 3*/
+.video {
+    display: flex;
+    justify-content: center;
+    background-color: #3E402D;
+}
+.video video {
+    width: 75%;
+    margin: 25px;
+
+}
+
+/* foto's*/
+.homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
+    border: 5px solid #9F886F;
+    box-sizing: border-box;
+    font-size: 2em;
+    font-family: 'Titan One', sans-serif;
+}
+.fotomarg {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #3E402D;
+    color: #F5E6C5;
+}
+
+.foto {
+    box-sizing: border-box;
+    columns:3 250px;
+    gap: 15px;
+    padding-top: 10px;
+    padding: 10px;
+}
+
+.foto img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+/* to do*/
+.todo {
+    background-color:#3E402D ;
+    padding: 8px;
+}
+
+.eersten2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.card {
+    background: #F5E6C5;
+    width: 700px;
+    font-family: "montserrat", sans-serif;
+    font-size: 20px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.card2 {
+    background: #F5E6C5;
+    width: 465px;
+    font-family: "montserrat", sans-serif;
+    font-size: 20px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.curve {
+    border-radius: 15px 15px 0 0;
+}
+
+.todo p {
+    padding: 15px;
+}
+
+.todo h2 {
+    padding: 15px;
+    background-color:#9F886F ;
+    display: flex;
+    justify-content: center;
+}
+
+.todo a {
+    color:brown;
+    font-size: 20px;
+}
+
+.card-image {
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+    background-image: url('./img/colluseum.jpg');
+    background-position: center;
+    margin-bottom: 0;
+}
+
+.car-2 {
+    background-image: url('./img/boot.jpg');
+    background-position: center;
+    margin-bottom: 0;
+}
+
+.car-3 {
+    background-image: url('./img/trevi.jpg');
+    background-position: center;
+    margin-bottom: 0;
+}
+.car-4 {
+    background-image: url('./img/pasta.jpg');
+    background-position: center;
+    margin-bottom: 0;
+}
+.car-5 {
+    background-image: url('./img/ristoranterome.jpg');
+    background-position: bottom;
+    margin-bottom: 0;
+}
+.car-6 {
+    background-image: url('./img/vatican.jpg');
+    background-position:center;
+    margin-bottom: 0;
+}
+
+.todo a:hover {
+    color: #F5E6C5;
+    background-color: brown;
+}
+
+.card:hover {
+    background-color: #D78B30;
+    color: #F5E6C5;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.card2:hover {
+    background-color: #D78B30;
+    color: #F5E6C5;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+/* Trastavere*/
+.bc {
+    background-color: #3E402D;
+}
+
+.trastavere img {
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.eersten3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.card3 {
+    background: #F5E6C5;
+    width: 100vh;
+    font-family: "montserrat", sans-serif;
+    font-size: 20px;
+    margin-top: 75px;
+    margin-bottom: 5px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 100vh;
+}
+
+.card4 img {
+    width: 100%;
+    background-image: bottom;
+    border-radius: 250px;
+}
+
+.tweepl img {
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;               
+    justify-content: center;
+}
+
+.restorant {
+    background: #F5E6C5;
+    font-family: "montserrat", sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.sfeercard {
+    background-color: #F5E6C5;
+    font-family: "montserrat", sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.sfeer {
+    font-family: "montserrat", sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.haha {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sfeer img {
+    width: 250px;
+    margin: 5px;
+}
+
+.sfeer img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+
+.plaats div{ 
+    display: flex;
+    justify-content: center;
+}
+
+.plaats img {
+    width: 100%;
+}
+
+.plaats p {
+    background-color: #D78B30;
+    color: #F5E6C5;
+    font-family: "montserrat", sans-serif;
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 0;
+}
+
